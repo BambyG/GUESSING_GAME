@@ -1,0 +1,429 @@
+
+#top-bar 
+{
+	width: 1000px; 
+	margin: 0 auto;
+	height: 40px;
+
+}
+
+body {
+     margin: 0px;
+     padding: 0px;
+     font-family: helvetica, arial, sans-serif;
+    }
+
+
+
+a {
+	text-decoration: none;
+	color: #333333;
+}
+
+#signintext {
+
+	color: #303030;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 30px;
+	font-size: 13px;
+
+}
+
+
+#logo {
+
+	margin: 5px;
+	width: 100px;
+	float: left;
+	padding-right: 3px;
+}
+
+.topbar-section {
+	float: left;
+	border-left: 1px grey solid;
+	height: 100%;
+	color:#CCCCCC;
+
+
+
+}
+
+.bottombar-section {
+	float: left;
+	border-left: 1px grey solid;
+	height: 50%;
+	color:#BB4545 ;
+	position: relative;
+	top: 10px;
+
+}
+
+.bottombar-section2 {
+	float: left;
+	height: 50%;
+	color:#BB4545 ;
+	position: relative;
+	top: 10px;
+	
+}
+
+
+
+.topbar-arrow {
+	float: left;
+
+}
+
+p {
+	color: #303030;
+	font-weight: bold;
+	padding-left: 3px;
+	padding-right: 20px;
+	font-family: arial;
+	font-size: 13px;
+	
+
+
+}
+
+
+
+
+#search-div {
+	padding-left:20px;
+
+
+}
+
+input {
+
+	background-color: #E4E4E4;
+	padding-left: 5px;
+	margin-top: 10px;
+	border-color: transparent;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 30px;
+	font-family: arial;
+	font-size: 13px;
+	color: #303030;	
+	height: 25px;
+
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #303030;}
+
+#signin-div {
+
+
+}
+
+
+#middle-bar {
+	height: 70px;
+	background-color: #BB1919;
+	width: 100%;
+	margin: 0 auto;
+	float: left;
+	border-top: 1px #CCCCCC solid;
+	
+}
+
+
+
+#userimage {
+
+	width: 20px;
+	margin: 1px 14px;
+	float: left;
+}
+
+#arrow{
+	
+	padding-right: 50px;
+	height: 40px;	
+}
+
+#lookimage{
+
+	float: right;
+	margin-top: 10px;
+	height: 25px;
+}
+
+#more-div img{
+	margin-left: 23px;	
+}
+
+.clear {
+	clear: both;
+}
+
+
+h1{
+	
+	width: 1000px; 
+	margin:0 auto ;
+	color:white;
+	font-size: 40px;
+	font-weight: normal;
+	margin-top: 10px;
+	
+}
+
+#local-news a{
+	color: white;
+	text-decoration: none;
+	margin-bottom: 10px;
+	font-size: 20px;
+	position:relative;
+	top:-35px;
+	right:220px;
+	float:right;
+	border: 1px #BB4545 solid;
+	padding: 5px 10px 5px 10px;
+}
+
+#local-news a:hover {
+	text-decoration: underline;	
+
+
+}
+
+#bottom-bar{
+	background-color: #A91717;
+	width: 100%;
+	float: left;
+}
+
+
+
+#menu-bar2{
+	width: 1000px;
+	margin: 0 auto;
+	height: 35px;
+
+}
+
+#menu-bar2 a {
+
+	color: white;
+	font-weight: normal;
+	font-family: arial;
+	font-size: 14px;
+	margin: 0 auto;
+	padding-left: 5px;
+	position: relative;
+	bottom: 15px;
+	
+}
+
+#menu-bar2 a:hover {
+
+text-decoration: underline;	
+	
+}
+
+.bottombar-section img {
+	position: relative;
+	bottom: 13px;
+}
+
+
+
+
+#pagecontainer{
+	width: 1000px; 
+	margin: 0 auto;
+}
+
+#mainarticle{
+	width:600px;
+	
+
+
+}
+
+h2 {
+	font-weight: normal;
+	margin-top: 10px;
+	font-size: 20px;
+	color: #404040;
+	border-bottom: 4px solid #a91717;
+	width: 100px;
+}
+
+h3 a {
+
+	font-size: 35px;
+	color: #686868;
+}
+
+h3 a:hover {
+
+	color:#1167a8;
+}
+
+#article-summary p {
+	color: #5a5a5a;
+	font-family: arial;
+	font-weight: normal;
+	font-size: 15px;
+	width: 250px;
+	
+	
+}
+
+.date{
+    color: #5a5a5a;
+	font-family: arial;
+	font-weight: normal;
+	font-size: 14px;
+	width: 250px;
+	padding-right: 10px;
+
+
+
+}
+
+.liensrouge {
+	color: #a91717;
+	font-size: 14px;
+	padding-left: 10px;
+	font-weight: normal;
+	
+}
+s
+#article-summary a:hover {
+
+	color:#1167a8;
+}
+
+
+.clock{
+
+	position: relative;
+	top: 5px;
+}
+
+#article-container{
+	float: left
+	width: 700px;
+	border-right: 1px solid #CCCCCC;
+	
+
+
+}
+
+#article-summary  {
+
+	float: left;
+
+}
+
+.miniliens a{
+	color: black;
+	width: 250px;
+	float: left;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+#article-hr{
+	width: 50%;
+	color: red;
+}
+
+#watch-listen{
+	
+	
+	width: 350px;
+	float: left;
+	margin-left: 15px;
+	position: relative;
+	top: -85px;
+	
+}
+
+.watch-listen-link:hover{
+	
+	color:#1167a8;
+	
+	
+}
+
+
+
+.watch-listen-link{
+
+	font-weight: bold;
+	font-size: 15px;
+
+}
+
+h4{
+	font-weight: normal;
+	font-size: 25px;
+	
+	color: 
+	
+}
+
+
+#main-article-image {
+
+	width: 300px;
+	margin-left: 10px;
+	float: left;
+	border-right: 1px solid #CCCCCC;
+	padding-right: 15px;
+
+}
+
+.article-side-image{
+	float: left;
+	
+}
+
+.side-article{
+	float: right;
+	width: 196px;
+	position: relative;
+	top:-10px;
+	
+}
+
+
+.side-article .date {
+
+	position:relative;
+	top: -10px;
+	
+}
+
+.no-border{
+
+	border-left: none;
+	padding:0;
+
+}
+
+.border-right{
+	border-right: 1px solid #CCCCCC;
+
+	
+}
+
+.side-article .clock2 {
+	position: relative;
+	top: -5px;
+}
+
+.clock2{
+
+	position: relative;
+	top: 5px;
+}
